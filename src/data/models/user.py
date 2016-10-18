@@ -48,3 +48,4 @@ class User(CRUDModel, UserMixin):
     def is_verified(self):
         " Returns whether a user has verified their email "
         return self.verified is True
+'''gggg'''
